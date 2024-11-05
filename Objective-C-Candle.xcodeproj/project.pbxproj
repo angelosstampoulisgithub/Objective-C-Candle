@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6D827A52CDA03EF0028A977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D827812CDA03EC0028A977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D827882CDA03ED0028A977;
+			remoteInfo = "Objective-C-Candle";
+		};
+		D6D827AF2CDA03EF0028A977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D827812CDA03EC0028A977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D827882CDA03ED0028A977;
+			remoteInfo = "Objective-C-Candle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6D827892CDA03ED0028A977 /* Objective-C-Candle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-Candle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D827A42CDA03EF0028A977 /* Objective-C-CandleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-CandleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D827AE2CDA03EF0028A977 /* Objective-C-CandleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-CandleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D6D827B62CDA03EF0028A977 /* Exceptions for "Objective-C-Candle" folder in "Objective-C-Candle" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D6D827882CDA03ED0028A977 /* Objective-C-Candle */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6D8278B2CDA03ED0028A977 /* Objective-C-Candle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D6D827B62CDA03EF0028A977 /* Exceptions for "Objective-C-Candle" folder in "Objective-C-Candle" target */,
+			);
+			path = "Objective-C-Candle";
+			sourceTree = "<group>";
+		};
+		D6D827A72CDA03EF0028A977 /* Objective-C-CandleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-CandleTests";
+			sourceTree = "<group>";
+		};
+		D6D827B12CDA03EF0028A977 /* Objective-C-CandleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-CandleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D827862CDA03ED0028A977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D827A12CDA03EF0028A977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D827AB2CDA03EF0028A977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6D827802CDA03EC0028A977 = {
+			isa = PBXGroup;
+			children = (
+				D6D8278B2CDA03ED0028A977 /* Objective-C-Candle */,
+				D6D827A72CDA03EF0028A977 /* Objective-C-CandleTests */,
+				D6D827B12CDA03EF0028A977 /* Objective-C-CandleUITests */,
+				D6D8278A2CDA03ED0028A977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D8278A2CDA03ED0028A977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D827892CDA03ED0028A977 /* Objective-C-Candle.app */,
+				D6D827A42CDA03EF0028A977 /* Objective-C-CandleTests.xctest */,
+				D6D827AE2CDA03EF0028A977 /* Objective-C-CandleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D827882CDA03ED0028A977 /* Objective-C-Candle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D827B72CDA03EF0028A977 /* Build configuration list for PBXNativeTarget "Objective-C-Candle" */;
+			buildPhases = (
+				D6D827852CDA03ED0028A977 /* Sources */,
+				D6D827862CDA03ED0028A977 /* Frameworks */,
+				D6D827872CDA03ED0028A977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6D8278B2CDA03ED0028A977 /* Objective-C-Candle */,
+			);
+			name = "Objective-C-Candle";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-Candle";
+			productReference = D6D827892CDA03ED0028A977 /* Objective-C-Candle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6D827A32CDA03EF0028A977 /* Objective-C-CandleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D827BC2CDA03EF0028A977 /* Build configuration list for PBXNativeTarget "Objective-C-CandleTests" */;
+			buildPhases = (
+				D6D827A02CDA03EF0028A977 /* Sources */,
+				D6D827A12CDA03EF0028A977 /* Frameworks */,
+				D6D827A22CDA03EF0028A977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D827A62CDA03EF0028A977 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6D827A72CDA03EF0028A977 /* Objective-C-CandleTests */,
+			);
+			name = "Objective-C-CandleTests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-CandleTests";
+			productReference = D6D827A42CDA03EF0028A977 /* Objective-C-CandleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6D827AD2CDA03EF0028A977 /* Objective-C-CandleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D827BF2CDA03EF0028A977 /* Build configuration list for PBXNativeTarget "Objective-C-CandleUITests" */;
+			buildPhases = (
+				D6D827AA2CDA03EF0028A977 /* Sources */,
+				D6D827AB2CDA03EF0028A977 /* Frameworks */,
+				D6D827AC2CDA03EF0028A977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D827B02CDA03EF0028A977 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6D827B12CDA03EF0028A977 /* Objective-C-CandleUITests */,
+			);
+			name = "Objective-C-CandleUITests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-CandleUITests";
+			productReference = D6D827AE2CDA03EF0028A977 /* Objective-C-CandleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D827812CDA03EC0028A977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D6D827882CDA03ED0028A977 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D6D827A32CDA03EF0028A977 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D6D827882CDA03ED0028A977;
+					};
+					D6D827AD2CDA03EF0028A977 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D6D827882CDA03ED0028A977;
+					};
+				};
+			};
+			buildConfigurationList = D6D827842CDA03EC0028A977 /* Build configuration list for PBXProject "Objective-C-Candle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D827802CDA03EC0028A977;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6D8278A2CDA03ED0028A977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D827882CDA03ED0028A977 /* Objective-C-Candle */,
+				D6D827A32CDA03EF0028A977 /* Objective-C-CandleTests */,
+				D6D827AD2CDA03EF0028A977 /* Objective-C-CandleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D827872CDA03ED0028A977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D827A22CDA03EF0028A977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D827AC2CDA03EF0028A977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D827852CDA03ED0028A977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D827A02CDA03EF0028A977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D827AA2CDA03EF0028A977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6D827A62CDA03EF0028A977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D827882CDA03ED0028A977 /* Objective-C-Candle */;
+			targetProxy = D6D827A52CDA03EF0028A977 /* PBXContainerItemProxy */;
+		};
+		D6D827B02CDA03EF0028A977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D827882CDA03ED0028A977 /* Objective-C-Candle */;
+			targetProxy = D6D827AF2CDA03EF0028A977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6D827B82CDA03EF0028A977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-Candle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-Candle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6D827B92CDA03EF0028A977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-Candle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-Candle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6D827BA2CDA03EF0028A977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6D827BB2CDA03EF0028A977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D827BD2CDA03EF0028A977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-CandleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-Candle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-Candle";
+			};
+			name = Debug;
+		};
+		D6D827BE2CDA03EF0028A977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-CandleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-Candle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-Candle";
+			};
+			name = Release;
+		};
+		D6D827C02CDA03EF0028A977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-CandleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-Candle";
+			};
+			name = Debug;
+		};
+		D6D827C12CDA03EF0028A977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-CandleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-Candle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D827842CDA03EC0028A977 /* Build configuration list for PBXProject "Objective-C-Candle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D827BA2CDA03EF0028A977 /* Debug */,
+				D6D827BB2CDA03EF0028A977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D827B72CDA03EF0028A977 /* Build configuration list for PBXNativeTarget "Objective-C-Candle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D827B82CDA03EF0028A977 /* Debug */,
+				D6D827B92CDA03EF0028A977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D827BC2CDA03EF0028A977 /* Build configuration list for PBXNativeTarget "Objective-C-CandleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D827BD2CDA03EF0028A977 /* Debug */,
+				D6D827BE2CDA03EF0028A977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D827BF2CDA03EF0028A977 /* Build configuration list for PBXNativeTarget "Objective-C-CandleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D827C02CDA03EF0028A977 /* Debug */,
+				D6D827C12CDA03EF0028A977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D827812CDA03EC0028A977 /* Project object */;
+}
