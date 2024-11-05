@@ -2,5 +2,8 @@
 I made this simple iOS app in Objective C to show simple animation techniques.
 
 
-Uploading Simulator Screen Recording - iPhone 16 Pro - 2024-11-05 at 14.25.28.mp4…
+
+
+https://github.com/user-attachments/assets/ea15893c-46e8-4986-8d98-6e20c136b5c1
+
 
