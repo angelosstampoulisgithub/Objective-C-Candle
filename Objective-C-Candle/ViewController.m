@@ -21,10 +21,13 @@
     [super viewDidAppear:animated];
     CandleView *candleView = [[CandleView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:candleView];
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake((UIScreen.mainScreen.bounds.size.width / 2.0)-100, 80, 300, 60)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
     [label setText:@"Objective-C-Candle-Animation"];
     [label setTextColor:UIColor.redColor];
     [candleView addSubview:label];
+    [label setTranslatesAutoresizingMaskIntoConstraints:FALSE];
+    [[label topAnchor] constraintEqualToAnchor:self.view.topAnchor constant:60].active = TRUE;
+    [[label centerXAnchor] constraintEqualToAnchor:self.view.centerXAnchor].active = TRUE;
 }
 
 @end
